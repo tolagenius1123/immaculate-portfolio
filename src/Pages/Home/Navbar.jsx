@@ -43,7 +43,6 @@ function Navbar() {
 					cursor: "pointer",
 				}}
 			>
-				{/* <img src="./img/logo.svg" alt="Logoipsum" /> */}
 				<PiFlowerFill
 					style={{ height: "40px", width: "40px", color: "#5e3bee" }}
 				/>
@@ -81,20 +80,6 @@ function Navbar() {
 							Home
 						</Link>
 					</li>
-					{/* <li>
-						<Link
-							onClick={closeMenu}
-							activeClass="navbar--active-content"
-							spy={true}
-							smooth={true}
-							offset={-70}
-							duration={500}
-							to="MyPortfolio"
-							className="navbar--content"
-						>
-							Portfolio
-						</Link>
-					</li> */}
 					<li>
 						<Link
 							onClick={closeMenu}
@@ -117,12 +102,26 @@ function Navbar() {
 							smooth={true}
 							offset={-70}
 							duration={500}
+							to="mySkills"
+							className="navbar--content"
+						>
+							Skills
+						</Link>
+					</li>
+					{/* <li>
+						<Link
+							onClick={closeMenu}
+							activeClass="navbar--active-content"
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={500}
 							to="testimonial"
 							className="navbar--content"
 						>
 							Testimonials
 						</Link>
-					</li>
+					</li> */}
 				</ul>
 			</div>
 			<Link

@@ -3,7 +3,7 @@ export default function AboutMe() {
 		<section id="AboutMe" className="about--section">
 			<div className="about--section--img">
 				<img
-					src="./img/portrait.jpg"
+					src="./img/portrait3.JPG"
 					alt="About Me"
 					style={{
 						borderRadius: "20px",
